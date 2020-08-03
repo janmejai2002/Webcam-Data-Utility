@@ -20,7 +20,7 @@ def videostream_initialize(roi, frame, isBgCaptured, bgModel,learningRate):
     #display initial values of ROI box
     values = roi.display_val()
     # draw the rectangle on screen
-    cv2.rectangle(frame, A, C, (0, 255, 0), 2)
+    cv2.rectangle(frame, A, C, (0, 255, 0), 1)
     # draw the coordinates on screen
     cv2.putText(frame, values, (50, 30),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (10, 240, 50))

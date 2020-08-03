@@ -23,8 +23,8 @@ class roi:
         self.x += self.steps
 
     def create_box(self):
-        A = (self.x, self.y)
-        C = (self.x - self.w, self.y - self.h)
+        A = (self.x+1, self.y+1)
+        C = (self.x - self.w - 1, self.y - self.h - 1)
         return A, C
 
     def check_all(self):

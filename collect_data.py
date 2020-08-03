@@ -41,18 +41,15 @@ mask_dir, grayscale_dir, orig_no_Bg, orig_roi = create_dir(args["saveoptions"], 
 class_save_dir = [mask_dir, grayscale_dir, orig_no_Bg, orig_roi]
 print(f"[INFO] Directories created/existed : {class_save_dir}")
 
-
-
 # # Capture the frame by initializing the webcam once
 # and capturing the image as a numpy array
-print("[INFO] capturing frame dimensions ...")
+print("[INFO] Initializing webcam ...")
 vs = VideoStream(src=args["webcam"]).start()
 time.sleep(1)
 frame_base = vs.read()
+print(f"Frame dimensions : {frame_base.shape[1]}x{frame_base.shape[0]}")
 
-print("[INFO] frame dimensions captured ...")
-print(f"{frame_base.shape[1]}x{frame_base.shape[0]}")
-# current_dir
+# Continue saivng from last image in dir
 save_num = args["savenum"]
 
 # defining initial boundaries and size for roi box
@@ -93,9 +90,6 @@ while True:
 
 
     if key == ord('v'):
-        mask_path = os.path.join(save_dir, str(save_num)+'.jpg')
-        cv2.imwrite(mask_path, thresh)
-        save_num += 1
         save_files(save_types, class_save_dir, save_num, isBgCaptured)
         save_num += 1
 
