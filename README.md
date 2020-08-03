@@ -6,6 +6,12 @@ You can collect your own dataset using your webcam only by the use of this repo.
 
 ## Setup
 
+First go into a desired directory and open terminal or git bash, then run
+
+        git clone https://github.com/janmejai2002/Webcam-Data-Utility.git
+        
+Then change directory to Webcam-Data-Utililty and proceed as follows.
+
 To setup your environment run :
 
         pip install -r requirements.txt
