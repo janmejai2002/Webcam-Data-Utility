@@ -42,6 +42,8 @@ They can be visualized as :
 
 Note that you cannot capture the anything apart from Original ROI if you have not captured the background by pressing `B`.
 
+Note : In the following commands you might have to replace `python` with `python3` based on your configurations.
+
 To test the script run:
 
         python collect_data.py
