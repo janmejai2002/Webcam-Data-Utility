@@ -38,7 +38,7 @@ Let's call these `save_types`.
 
 They can be visualized as :
 
-![](https://github.com/janmejai2002/Hand-Gesture-Control/blob/master/assets/collage.jpg)
+![](https://github.com/janmejai2002/Webcam-Data-Utility/blob/master/assets/collage.jpg)
 
 ------------------------------
 
