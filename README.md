@@ -11,6 +11,9 @@ To setup your environment run :
 You might have to use `pip3 ` instead of `pip` based on your settings.
 
 ------------------------------
+## Have a look
+
+![](https://github.com/janmejai2002/Webcam-Data-Utility/blob/master/assets/gif2.gif)
 
 ## Usage `collect_data.py`
 
