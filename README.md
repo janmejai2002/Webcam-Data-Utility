@@ -167,3 +167,4 @@ If you end up using `Droid Cam`, turn on `Exposure Lock` in settings.
 
 To run the script for my phone's webcam I used `--webcam 1` in the command line arguments.
 
+#### I hope you acknowledge this repo in your projects and do star if you like it, it would mean a lot to me :D
