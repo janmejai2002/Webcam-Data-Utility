@@ -1,5 +1,8 @@
 # Webcam Data Utility
 
+[![HitCount](http://hits.dwyl.com/janmejai2002/Webcam-Data-Utility.svg)](http://hits.dwyl.com/janmejai2002/Webcam-Data-Utility)
+
+
 You can collect your own dataset using your webcam only by the use of this repo. It allows you to define a Region Of Interest on the screen, inside of which will be captured. The features are quite a lot so make sure you read the following carefully.
 
 ------------------------------
